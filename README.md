@@ -5,4 +5,10 @@
 
 ## node exports
 
+	`exports.addHeader = function(){
+    return "addHader";
+	};`
+	
 ## node require
+
+	var head = require('./module/public/header');
