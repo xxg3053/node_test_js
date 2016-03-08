@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-01-14 16:57:32
+ * @version $Id$
+ */
+/*btn*/
+.btn { line-height:1.1666666666666667em; padding:.4em 1em; text-align:center; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;}
+.btn:hover {text-decoration:none;}
+.btn-disabled,
+.btn-disabled:hover {background:#838383;}
+.btn-cancel,
+.btn-cancel:hover {display:block; width:75px; height:22px; line-height:22px; color:#2588d5; text-align:center;}
+.btn-gray {width:6.75em; background: #666; color:#cac8c8;}
+.btn-blue {background:#1c74ba; color:#fff; font-weight:bolder;}
+.btn-blue:hover {background:#2887e1;}
+.btn-upload {display:block; width:86px; height:20px; line-height:20px; background:#9b9b9b; border-radius:3px; text-align:center; color:#fff;}
+.btn-upload:hover {color:#fff; text-decoration:none;}
+.btn-txt {color:#2588d5;}
+.btn-txt:hover {color:#0f9add;}
+.btn-play .i-triangle-l {float:left; margin:5px 5px 0 6px;}
+.btn-play span {float:left;}
+.btn-collection,
+.btn-collected {display:block; width:64px; height:17px; line-height:17px; background-position: -39px -37px; color:#fff;}
+.btn-collection:hover,
+.btn-collected:hover {background-position: -39px -54px;}
+.btn-collection span,
+.btn-collected span {float:left;}
+.btn-collection:hover span,
+.btn-collected:hover span { color:#fff;}
+.btn-collection .i-font,
+.btn-collected .i-font {float:left; margin:-1px 3px 0 6px; color: #545454;}
+.btn-collected .i-font {color:#c41e24;}
+.btn-drop {display:block; width:14px; height:14px; background:#fff; border:1px solid #dddddd; border-radius:2px;}
+.btn-drop .i-drop {display:block; margin:1em auto 0 auto;}

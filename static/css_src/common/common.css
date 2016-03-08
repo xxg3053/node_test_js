@@ -1,0 +1,4 @@
+html,body {height:100%;}
+.wrap {position:relative; height:auto; min-height:100%; max-width:1920px; min-width:1000px; margin:0 auto;}
+.content {width:87.2%;/*960/1366*/ min-width:960px; max-width:1200px; margin:0 auto; padding-bottom:176px;}
+.wrap-main {position:relative; padding-left:245px;}
