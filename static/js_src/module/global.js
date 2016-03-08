@@ -1,2 +1,4 @@
-var url = "127.0.0.1";
+var url = "http://localhost/php/node_test_js";
 exports.DOMAIN = url;
+exports.HOME = url + '/www/index.html';
+exports.LOGIN = url + '/www/login.html';

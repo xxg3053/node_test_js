@@ -29,6 +29,7 @@ gulp.task('css', function () {
         // .pipe(rename(function(path){
         //     path.dirname = path.dirname.replace('page', 'min');
         // }))
+        .pipe(rename({suffix:'.min'}))
         .pipe(gulp.dest(css_to_dir));
 });
 
@@ -46,19 +47,19 @@ gulp.task('watch', function () {
         }
     });
 
-    gulp.watch(static_dir + '/css/**/*.css', function(event){
-        if(event.path.indexOf('/min/') !== -1){
-            return;
-        }
-        if(event.type == 'added' || event.type == 'changed' || event.type == 'deleted'){//added, changed or deleted
-            if(t2){
-                clearTimeout(t2);
-            }
-            t2 = setTimeout(function(){
-                gulp.start('css');
-            }, 1000);
-        }
-    });
+    // gulp.watch(static_dir + '/css/**/*.css', function(event){
+    //     if(event.path.indexOf('/min/') != -1){
+    //         return;
+    //     }
+    //     if(event.type == 'added' || event.type == 'changed' || event.type == 'deleted'){//added, changed or deleted
+    //         if(t2){
+    //             clearTimeout(t2);
+    //         }
+    //         t2 = setTimeout(function(){
+    //             gulp.start('css');
+    //         }, 1000);
+    //     }
+    // });
 
 });
 
