@@ -1,0 +1,214 @@
+@import url(../../css/module/mod_pages.css);
+body,button,input,label,select,option,textarea,fieldset,legend,ins{font:12px/1.5 Arial,\5FAE\8F6F\96C5\9ED1,'Lucida Grande',Tahoma,Verdana,\5b8b\4f53,Helvetica,sans-serif;}
+body{background: url(images/body_bg.jpg) repeat; color: #76b434;}
+em,b{font-style: normal; font-weight: normal;}
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+.btn:hover{text-decoration: none;}
+.gm-offical-top .user-name{color:#333;}
+.wrap{position: relative; min-width: 1000px; max-width: 1920px; overflow: hidden;}
+.content{width: 1000px; margin:0 auto; padding-top: 615px; font-size: 18px;}
+.form-info .content{padding-bottom: 0;}
+.hide{display: none;}
+.left,.right{float: left;}
+.index-row .record,
+.check-box .date li.current,
+.check-box .spree li span em,
+.game-box .right .ticket,
+.row03 .event-desc,
+.prize-list li .icon,
+.popup-box .col-bd ul .i-check,
+.charge-list li .icon,
+.popup-box .col-bd .extra .icon,
+.popup-box .extra-free .share .icon{background: url(images/icon.png) no-repeat;}
+.check-box .right .sign .btn,
+.game-box .left .play .btn,
+.game-box .left .play span em{background: url(images/btn.png) no-repeat;}
+
+.index-row .col-hd{min-height: 24px; line-height: 18px; padding: 35px 0 0 117px; margin: 45px 0 24px; background: url(images/title_main.png) no-repeat;font-size: 15px;}
+.index-row .record{height: 32px; line-height: 32px; margin-left: 7px; margin-bottom: 8px; padding-left: 44px; background-position: 0 0; font-weight: bold;}
+.index-row .record a{color: #76b434;}
+.index-row .record .log{margin-left: 23px;}
+.check-box{overflow: hidden; border-radius: 10px; background: #fff;}
+.check-box .left{width: 486px; padding:12px 35px 12px 12px; border-right: 1px dashed #e4e8df; color: #fff;}
+.check-box .out-box{padding:15px 11px 0 14px; background: #76b434; border-radius: 10px;}
+.check-box .date{overflow: hidden; border-bottom: 1px dashed #87cf3a;}
+.check-box .date li{float: left; width: 66px; height: 60px; line-height: 60px; margin-left: 22px; margin-bottom: 7px; font-size: 32px; text-align: center;}
+.check-box .date li.current{background-position: 0 -33px;}
+.check-box .spree{padding: 10px 0 10px 28px; border-top: 1px dashed #51920c; font-weight: bold;}
+.check-box .spree li{height: 40px; line-height: 40px;}
+.check-box .spree li span{position: relative; margin-left: 52px; padding-left: 31px;}
+.check-box .spree li span em{position: absolute; left: 0px; top: -5px; width: 19px; height: 24px; background-position: 0 -94px;}
+.check-box .right{position: relative; padding:29px 0 0 35px;}
+.check-box .right .num em{color: #ff5300;}
+.check-box .right .day{width: 117px; height: 110px; line-height: 110px; margin-top: 14px; border: 4px solid #76b434; border-radius: 8px; font-size: 92px; font-weight: bold; text-align: center;}
+.check-box .right .sign{position: absolute; left: 220px; top:80px; width: 179px; font-weight: bold;text-align: center;}
+.check-box .right .sign .btn{display: block; width: 179px; height: 62px; line-height: 55px; margin-bottom: 12px; background-position: 0 0; color: #fff; font-size: 23px;text-align: center; text-shadow:1px 2px 2px #4b9700;}
+.check-box .right .sign .btn:hover{background-position: 0 -446px;}
+.check-box .right .sign .btn.done{background-position: 0 -238px;text-shadow: 1px 2px 2px #999;}
+.check-box .right .sign span em{color: #ff5300;}
+
+.row02{color: #e65700;padding-bottom: 50px;}
+.row02 .col-hd{background-position: 0 -88px;}
+.game-box{overflow: hidden;}
+.game-box .left{position: relative; width: 595px; height: 472px; background: url(images/booth.png) no-repeat;}
+.game-box .left .game-img{position: absolute; top: 130px; left: 201px;}
+.game-box .left .game-img img{-webkit-user-select: none;}
+.game-box .left .tips{position: absolute; top: 70px; right: 110px; width: 126px; height: 71px; line-height: 65px; background: url(images/tip.png) no-repeat; text-align: center;}
+.game-box .left .flash-fire{position: absolute; top: 140px; left: 140px;width: 300px;z-index: 9;}
+.game-box .left .flash-steam{position: absolute; width: 250px;top: 50px; left: 160px;z-index: 9;}
+.game-box .left .play{position: absolute; top: 309px; left: 70px;}
+.game-box .left .play .btn{display: block; width: 209px; height: 70px; margin-bottom: 15px; margin-left: 110px;background-position: 0 -63px;}
+.game-box .left .play .btn:hover{background-position: 0 -302px;}
+.game-box .left .play .btn.start{background-position: 0 -166px;}
+.game-box .left .play .btn.start:hover{background-position: 0 -374px;}
+.game-box .left .play span{display:block; height: 27px; line-height: 27px; color: #faa16e;}
+.game-box .left .play span em{padding: 3px 9px 4px; background-position: 0 -135px; color: #e65700; font-size: 20px;}
+.game-box .right{width: 365px; margin-left: 40px;}
+.game-box .right .point{overflow: hidden;}
+.game-box .right .ticket{float: left; width: 133px; height: 22px; line-height: 22px; padding-left: 37px; background-position: 0 -119px; color:#e65700;}
+.game-box .right .point dl{float: left; width: 105px; height: 60px; padding-left: 90px;}
+.game-box .right .point dt{float: left; width: 85px; margin-left: -90px; font-size: 15px; text-align: right;}
+.game-box .rank-box{width: 352px; min-height: 380px;background-color: #fff9ec;}
+.game-box .rank-box h3{height: 40px; line-height: 40px; background-color: #ff8a00; color: #fff; font-weight: bold; text-align: center;}
+.game-box .rank-box ul{padding:15px 30px 20px 20px; font-size: 15px;}
+.game-box .rank-box ul li{height: 26px; line-height: 26px; padding-left: 42px; overflow: hidden;}
+.game-box .rank-box ul li em{float: left; width: 23px; height: 14px; line-height: 14px; margin-left: -42px; margin-top: 6px; border: 1px solid #e75b06; font-size: 10px; text-align: center;}
+.game-box .rank-box ul li span{float: left; min-width: 130px; max-width: 190px; overflow: hidden;}
+.game-box .rank-box ul li b{float: right; overflow: hidden; text-align: right;}
+
+.row03{height: 255px; font-size: 15px;}
+.row03 .col-hd{height: 25px; margin-top: 25px; padding:0; background-position: 0 -62px;}
+.row03 .event-desc{height: 60px; line-height: 18px; margin-bottom: 15px; padding-left: 88px; }
+.row03 .desc01 a{color: #e65700; text-decoration: underline;}
+.row03 .desc01{background-position: 0 -202px;}
+.row03 .desc02{background-position: 0 -142px;}
+
+/*background*/
+.wrap-bg{position: absolute; top:0; left: 0; z-index: -2; width: 100%;}
+.wrap-bg .bg-01{height: 255px; background-color: #d7312e; background-image: url(images/bg_01.png);}
+.wrap-bg .bg-02{height: 240px; background-color: #d7312e; background-image: url(images/bg_02.png);}
+.wrap-bg .bg-03{height: 120px; background-image: url(images/bg_03.png);}
+.wrap-bg .bg-04{height: 300px; margin-top: 1085px; background: url(images/body_bg02.jpg) repeat;}
+.wrap-bg .bg-01,
+.wrap-bg .bg-02,
+.wrap-bg .bg-03{min-width:1000px; margin:0 auto; background-position: center; background-repeat: no-repeat;}
+
+
+/*popup*/
+.popup-box{position: absolute; width: 690px; min-height: 370px; background-color: #b3201d; color: #ffda0a;font-size: 20px;}
+.popup-box .hd{height: 42px; line-height: 42px; padding-left: 20px; background-color: #941311; font-size: 20px; }
+.popup-box .close{position:absolute; top:0; right: -50px; width: 42px; height: 42px; line-height: 42px; background: #b3201d; color: #ffda0a; font-size: 36px; text-align: center;}
+.popup-box .close:hover{text-decoration: none;}
+.popup-box .bd{min-height: 350px; padding: 0 50px 30px; background: url(./images/popup_bg.jpg) no-repeat center;}
+.popup-box .bd h4{line-height: 40px; padding-top: 20px; padding-left:10px; font-size: 28px; text-align: center; font-weight: bold; }
+
+.popup-box .bd .img-prize{margin-top: 50px; text-align: center;}
+.popup-box .bd .game-code{display:block; margin: 30px 0; font-size: 18px; font-weight: bold; text-align: center;}
+.popup-box .no-record,
+.popup-box .congrats{padding-top: 85px;}
+.popup-box .no-record span,
+.popup-box .congrats span{display:block; width: 131px; height: 131px; margin: 0 auto; background: url(./images/state_img.png) no-repeat; overflow: hidden;}
+.popup-box .congrats span{background-position: 0 -231px;}
+
+.popup-box .mes-page{margin-bottom: 20px;}
+.popup-box .pages a{background-color: #f1a400; border: none; color:#a66800;}
+.popup-box .pages .current{background-color: #bd7600; border: none; color:#f1a400;}
+.popup-box .pages .i-left{border-color: transparent #a66800 transparent transparent;}
+.popup-box .pages .i-right{border-color: transparent transparent transparent #a66800;}
+
+.prize-list li{height: 75px; padding: 25px 0 5px 120px; border-bottom: 1px dashed #d34543;}
+.prize-list li:last-child{border-bottom: none;}
+.prize-list li .icon{float: left; width: 70px; height: 55px; margin-left: -92px; background-position: 0 -263px;}
+.prize-list .prize-txt{font-weight: bold;}
+.prize-list .prize-txt span{display: block;}
+.prize-list .prize-txt a,
+.prize-list .prize-txt b{font-size: 16px;}
+.prize-list .btn{color: #ffda0a;}
+.prize-list .btn:hover{text-decoration: underline;}
+
+.popup-box .col-bd{min-height: 345px; padding: 0 100px; background: url(images/popup_bg.jpg) no-repeat;}
+.popup-box .col-bd .back{display: block; line-height: 24px; margin-left: -75px; padding:28px 0 35px; color: #ffda0a;}
+.popup-box .col-bd .sum{min-height: 60px; line-height: 25px; margin-bottom: 32px; padding: 17px 0 20px 122px; background: url(images/state_img.png) no-repeat 0 -132px; font-weight: bold;}
+.popup-box .col-bd .game{overflow: hidden; margin-left: -20px;}
+.popup-box .col-bd .game li{position: relative; float: left; min-width: 125px; height: 33px; line-height: 33px; margin: 0 0 20px 20px; padding:0 6px; border: 1px solid #ffda0a; font-size: 18px; text-align: center;}
+.popup-box .col-bd .game li.current{color: #b4211c; border: 1px solid #ffee8d; background-color: #ffda0a;}
+.popup-box .col-bd .game .i-check{position: absolute; top: 0; right: 0; width: 19px; height: 14px; background-position: 0 -510px;}
+.popup-box .col-bd .area{overflow: hidden; margin-top: 20px; margin-left: 65px; }
+.popup-box .col-bd .area li{float: left; width: 100px; line-height: 20px;}
+.popup-box .col-bd .area input{float: left; margin: 4px 6px 0 0;}
+.popup-box .col-bd .area span{font-size: 16px;}
+.popup-box .col-bd .btn{text-align: center; margin-top: 20px;}
+.popup-box .col-bd .btn a{display: inline-block; width: 161px; height: 49px; line-height: 49px; border-radius: 8px; background-color: #ffda0a; color: #b3201d; font-size: 22px; font-weight: bold;}
+.popup-box .col-bd .btn a:hover{text-decoration: none;}
+.popup-box .col-bd .btn .done{background-color: #cfc9aa; color: #545454;}
+.popup-box .col-bd .code{height: 50px; line-height: 50px; padding-bottom: 20px; font-size: 15px; font-weight: bold; text-align: center;}
+.popup-box .extra-free{position: relative; padding: 0 145px 70px;}
+.popup-box .col-bd .txt{line-height: 60px; font-weight: bold; text-align: center;}
+.popup-box .extra-free .img{padding-top: 80px; text-align: center; background: url(images/turkey_pop.png) no-repeat 142px 20px;}
+.popup-box .extra-free .img img{width: 150px;}
+.popup-box .extra-free .game{margin-left: 115px;}
+.popup-box .extra-free .game li{min-width: 158px; height: 41px; line-height: 41px; margin-left: 0;}
+.popup-box .extra-free .game li span{margin-right: 6px;}
+.popup-box .extra-free .extra{padding-left: 94px; padding-bottom: 25px;}
+.popup-box .extra-free .extra .icon{float: left; width: 56px; height: 75px; margin-left: -70px; background-position: 0 -526px;}
+.popup-box .extra-free .tit{line-height: 22px; font-size: 18px; font-weight: bold;}
+.popup-box .extra-free .time{line-height: 38px; font-size: 15px;}
+.popup-box .extra-free .share{position: absolute; left: 0; bottom: 0; width: 490px; height: 60px; line-height: 60px; padding-left: 200px; background-color: #9e0e0b;}
+.popup-box .extra-free .share p{float: left;}
+.popup-box .extra-free .share .icon{float: left; width: 38px; height: 38px; margin: 12px 0 0 15px;}
+.popup-box .extra-free .icon.facebook{background-position: 0 -602px;}
+.popup-box .extra-free .icon.twitter{background-position: -39px -602px;}
+
+.charge-list{min-height: 471px; padding: 20px 20px 35px;}
+.charge-list li{width: 479px; min-height: 120px; margin-bottom: 10px; padding: 27px 42px 10px 130px; background: #8e1615 url(images/lottery_bg.jpg) no-repeat center;}
+.charge-list li .icon{float: left; width: 64px; height: 94px; margin-left: -80px; background-position: 0 -319px;}
+.charge-list .tit{line-height: 26px; margin-top: -5px; color: #cfc9aa; font-weight: bold;}
+.charge-list .time{color: #cfc9aa; font-size: 15px;}
+.charge-list .code{line-height: 20px; font-size: 15px;word-wrap: break-word;}
+.charge-list .code span{display: inline-block; min-width: 142px; margin-right: 20px;font-weight: bold;}
+.charge-list .recharge{position: relative;}
+.charge-list .recharge .icon{background-position: 0 -415px;}
+.charge-list .recharge .tit{color: #ffda0a;}
+.charge-list .recharge .time{color: #ffda0a;}
+.charge-list .recharge .btn{position: absolute; top: 50px; right: 50px; width: 95px; height: 38px; line-height: 38px; border-radius: 8px; background-color: #ffda0a; color: #c40f00; font-size: 17px; font-weight: bold; text-align: center;}
+
+/*page*/
+.popup-box .mes-page{margin-bottom: 30px; font-size: 14px;}
+.popup-box .pages{margin: 0;}
+.popup-box .pages a{margin-right: 5px; background-color: #ffda0a; border: none; color:#a66800;}
+.popup-box .pages .current{background-color: #bd7600; border: none; color: #ffda0a;}
+.popup-box .pages .i-left{border-color: transparent #a66800 transparent transparent;}
+.popup-box .pages .i-right{border-color: transparent transparent transparent #a66800;}
+
+
+
+/*collect information*/
+.form-info .wrap-bg .bg-01{background-image: url(images/bg_01_info.png);}
+.form-info .wrap-bg .bg-02{background-image: url(images/bg_02_info.png);}
+.prize-box .note{height: 19px; margin: 50px 0 35px 0;}
+.collect-box{overflow: hidden; padding-bottom: 80px;}
+.collect-box .left{width: 545px;}
+.collect-box .right{width: 400px; padding-left: 55px;}
+.collect-box .form-box dd{margin-bottom: 15px;}
+.collect-box .input-txt{width:500px; height: 18px; padding:10px; border: 1px solid #f3c50d; border-radius: 0; background: #feeecd; color: #666;}
+.collect-box .drop-input{width: 522px;}
+.collect-box .drop-input .btn-drop{margin-top: -40px; background: none;}
+.collect-box .drop-input .i-drop{margin-top: 16px;border-width: 7px 5px 0 5px; border-color: #f3c50d transparent transparent transparent;}
+.collect-box .drop-input .options{top: 40px; width: 522px; background: #ffe1a3; color: #fff;}
+.collect-box .drop-input .options li a{height:25px; line-height: 25px; color: #666;font-size: 14px;}
+.collect-box .drop-input .options li.current a,
+.collect-box .drop-input .options li a:hover{background: #feeecd; color: #333;}
+.collect-box .btn{display: inline-block; width:155px; height: 50px; line-height: 50px; padding:0; border-radius: 8px; background: #f3c50e; color: #000; font-size: 20px; font-weight: bold; text-align: center;}
+.collect-box .form-btn{margin-bottom: 37px;}
+.collect-box .prize-img{width: 335px; height: 270px; margin: 30px auto 40px; padding-top: 40px; background: url(./images/calendar.png) no-repeat; text-align: center; overflow: hidden;}
+.collect-box .form-box label{position: absolute; top:11px; left: 15px; z-index: 1; color: #999;}
+
+
+
+
+
+
+
+
+

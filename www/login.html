@@ -13,12 +13,37 @@
    <!--[if IE 8 ]><body class="ie8"><![endif]-->
    <!--[if (gt IE 9) ]> <body><![endif]-->
    <!--[!(IE)]><!--><body><!--<![endif]-->
+   
+<!--S:头部-->
+<div class="gm-offical-top">
+
+    <h1 class="logo"><a href="#" target="_blank">R2Games</a></h1>
+    
+    <div class="sign-box">
+        <!--S:未登录-->
+        <a href="javascript:;" class="btn btn-nobg" data-login_btn data-nologin>LOGIN</a>
+        <a href="javascript:;" class="btn" data-reg_btn data-nologin>SIGN UP</a>
+        <!--E:未登录-->
+        <!--S:已登录-->
+        <div class="drop-box" style="display:none" data-logined>
+            <div class="user-img"><img data-userimg><s></s></div>
+            <div class="user-name" data-username></div>
+            <i class="i-drop"></i>
+            <ul class="drop-list" style="display: none;">
+                <li><a href="javascript:;" data-logout_btn="">Logout</a></li>
+            </ul>
+        </div>
+        <!--E:已登录-->
+    </div>
+</div>
+<!--E:头部-->
+
 <article class="warp">
 	<div class="warp-main">
 		<!--S: navigation-->
 		<!--E: navigation-->
 		<!--S: content-->
-		<div class="content">
+		<div class="content"> 
 			<div class="input-box">
 				<input class="input-txt" name="login_id" type="text">
 				<span class="input-placeholder">用户</span>
