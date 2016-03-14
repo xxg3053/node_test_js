@@ -2,7 +2,9 @@ var Cookie = require('./module/plugins/Cookie');
 var auth = require('./module/user/auth');
 var global = require('./module/global');
 var head = require('./module/public/header');
+var a = require('./module/a');
 function init(){
+	a.show2();
 	$('#J_login').click(function(event) {
 		window.location.href = global.LOGIN;
 	});
@@ -14,7 +16,7 @@ function init(){
 	});
 
 	if(auth.is_login()){
-		$('.J-tip').empty().html('用户已经登录了,登录session:'+Cookie.cookie('r2_auth'));
+		$('.J-tip').empty().html('用户xxxxx了,登录session:'+Cookie.cookie('r2_auth'));
 		$('#J_login').hide();
 		$('#J_logout').show();
 	}else{

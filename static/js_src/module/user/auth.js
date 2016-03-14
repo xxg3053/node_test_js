@@ -1,4 +1,5 @@
 var Cookie = require('../plugins/Cookie');
+
 exports.is_login = function(){
     return Cookie.cookie('r2_auth') ? true : false;
 };
@@ -6,22 +7,31 @@ exports.is_login = function(){
 exports.get_uid = function(){
     return Cookie.cookie('r2_uid');
 };
+exports.get_nid = function(){
+    return Cookie.cookie('r2_nid');
+};
 
-exports.get_login_id = function(){
-    return Cookie.cookie('r2_login_id');
+exports.get_account = function(){
+    return Cookie.cookie('r2_account');
+};
+
+exports.get_open_plat = function(){
+    return Cookie.cookie('r2_open_plat');
 };
 
 exports.get_name = function(){
     return Cookie.cookie('r2_name');
 };
 
-exports.login_in = function(){
-	 Cookie.cookie('r2_auth','1234567','1000');
-};
 exports.login_out = function(callback){
-	Cookie.cookie('r2_auth','');
-    // var login_out_url = require('../global').LOGIN_OUT_URL;
-    // $.get(login_out_url, function(){
-        callback();
-    // });
+    Cookie.cookie('r2_auth','');
+    callback();
+};
+
+exports.login_in = function(callback){
+    Cookie.cookie('r2_auth','123456');
+    Cookie.cookie('r2_uid','000000');
+    Cookie.cookie('r2_account','1');
+    Cookie.cookie('r2_name','kenfo');
+    callback();
 };
